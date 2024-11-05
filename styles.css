@@ -127,6 +127,11 @@ header .navbar {
         align-items: center;
         padding-top: 100px;
         background: white;
+        transition: .2s left ease;
+    }
+
+    body.show-mobile-menu .navbar .nav-menu {
+        left: 0;
     }
 
     .navbar :where(#menu-close-button, #menu-open-button) {
