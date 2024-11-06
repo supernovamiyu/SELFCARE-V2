@@ -8,6 +8,72 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.body-login-register-container {
+    background-color: black;
+}
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1px;
+    color: white;
+}
+
+.form-container h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.form-container form {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border-radius: 3px solid rgb(255, 255, 255);
+}
+
+.form-container form label {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-container form input {
+    width: 100%;
+    margin-bottom: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    outline-color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+}
+
+
+.form-container form input[type="submit"] {
+    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.form-container form input[type="submit"]:active {
+    transform: scale(0.97);
+}
+
+.form-container p {
+    margin-top: 20px;
+}
+
+.form-container p a{
+    text-decoration: none;
+    color: white;
+}
+
+
 html {
     scroll-behavior: smooth;
 }
