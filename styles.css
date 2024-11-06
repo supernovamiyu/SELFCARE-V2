@@ -258,7 +258,42 @@ header .navbar {
 
 .opinions-section .opinions .name .feedback{
     line-height: 25px;
+}
 
+/* Estilos para el pie de página */
+
+.footer-section {
+    background: rgb(0, 0, 0);
+    padding: 20px 0;
+}
+
+.footer-section .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section :where(.copyright-text, .social-link, .policy-link) {
+    color: rgba(255, 255, 255, 0.596);
+    transition: .2s ease;
+}
+
+.footer-section .social-link-list{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-section .social-link-list .social-link {
+    font-size: 20px;
+}
+
+.footer-section .social-link-list .social-link:hover,.footer-section .policy-text .policy-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.footer-section .policy-text .separator{
+    margin: 0 5px;
+    color: white;
 }
 
 @media screen and (max-width: 1024px) {
@@ -362,5 +397,10 @@ header .navbar {
 
     .service-section .service-list .service-item {
         width: 100%;
+    }
+
+    .footer-section .section-content {
+        flex-direction: column;
+        gap: 20px;
     }
 }
