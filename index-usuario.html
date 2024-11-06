@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>SELFCARE</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">SELFCARE</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#opinions" class="nav-link">Opiniones</a>
+                </li>
+                <!-- Sección para mostrar el nombre del usuario -->
+                <li id="user-info" class="nav-item" style="display: none;">
+                    <span id="welcome-message"></span>
+                    <button id="logout-button" class="nav-link">Cerrar sesión</button>
+                </li>
+                <!-- Enlace a iniciar sesión -->
+                <li id="login-item" class="nav-item">
+                    <a href="login.html" class="nav-link">Iniciar sesión</a>
+                </li>
+            </ul>
+    
+            <button id="menu-open-button" class="fas fa-bars"></button>
+    
+        </nav>
+    </header>
+<main>
+    <section class="hero-section">
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">Descubre un mundo lleno de posibilidades.</h2>
+                <h3 class="subtitle">Somos la academia de desarrollo personal #1 del mundo.</h3>
+                <p class="description">¡Bienvenidos a SELFCARE!</p>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src= "señora_en_el_sol.jpg" alt="Imagen principal del sitio web SELFCARE" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!--Sobre nosotros-->
+    <section class="about-section" id="about">
+        <div class="section-content">
+            <div class="about-image-wrapper">
+                <img src="books.jpg" alt="Sobre nosotros" class="about-image">
+            </div>
+            <div class="about-details">
+                <h2 class="section-title">Sobre nosotros</h2>
+                <p class="text">Somos una academia gratuita y global. Contamos con diversos grupos de apoyo en varios aspectos, como el académico y el personal. Además, hacemos eventos y excursiones para empresas. Disponemos de material educativo, como cursos, talleres y seminarios gratuitos para ayudar a estudiantes de todos los niveles a mejorar su aprendizaje. Mediante nuestro contenido, contribuimos a que las personas formen hábitos saludables adaptables a cada situación.</p>
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios-->
+     <section class="service-section" id="services">
+        <h2 class="section-title">Servicios</h2>
+        <div class="service-content">
+            <ul class="service-list">
+                <li class="service-item">
+                    <img src="group_of_friends.jpg" alt="Taller" class="service-image">
+                    <h3 class="name">Talleres</h3>
+                    <p class="text">Talleres de diversos temas, como desarrollo personal, educación y formación de buenos hábitos</p>
+                </li>
+                <li class="service-item">
+                    <img src="group_of_friends.jpg" alt="Taller" class="service-image">
+                    <h3 class="name">Seminarios</h3>
+                    <p class="text">Seminarios con los mejores expertos para poder potenciar tus capacidades.</p>
+                </li>
+                <li class="service-item">
+                    <img src="group_of_friends.jpg" alt="Taller" class="service-image">
+                    <h3 class="name">Excursiones</h3>
+                    <p class="text">Talleres para empresas que quieran mejorar la calidad de vida de sus empleados.</p>
+                </li>
+                <li class="service-item">
+                    <img src="group_of_friends.jpg" alt="Taller" class="service-image">
+                    <h3 class="name">Webinars</h3>
+                    <p class="text">Webinars donde reuniremos a cientos de personas para hablar de diversos temas.</p>
+                </li>
+            </ul>
+        </div>
+     </section>
+
+     <!--Opiniones-->
+     <section class="opinions-section" id="opinions">
+        <h2 class="section-title">Opiniones</h2>
+        <div class="section-content">
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <ul class="opinions-list">
+                        <li class="opinions">
+                            <img src="user1.jpg" alt="User" class="user-image">
+                            <h3 class="name">Sara Jovanóvic</h3>
+                            <i class="feedback">“SELFCARE HA CAMBIADO MI 
+                                VIDA DE LA MANERA MÁS 
+                                RADICAL POSIBLE”.</i>
+                        </li>
+                        <li class="opinions">
+                            <img src="user2.jpg" alt="User" class="user-image">
+                            <h3 class="name">Marina Leyton, Reino Unido</h3>
+                            <i class="feedback">“LOS TALLERES SON DE UNA ALTA CALIDAD. ADEMÁS, TE PERMITEN CRECER COMO PERSONA.”.</i>
+                        </li>
+                        <li class="opinions">
+                            <img src="user3.jpg" alt="User" class="user-image">
+                            <h3 class="name">Lisa Pranpiya, Kirguistán</h3>
+                            <i class="feedback">“CONSIDERO QUE SELFCARE 
+                                ABRIÓ LAS PUERTAS PARA 
+                                DESCUBRIR MI MEJOR 
+                                VERSIÓN”.</i>
+                        </li>
+                        <li class="opinions">
+                            <img src="user4.jpg" alt="User" class="user-image">
+                            <h3 class="name">Ahtisa Cabrera, Filipinas</h3>
+                            <i class="feedback">“GRACIAS A SELFCARE, MIS 
+                                EMPLEADOS TIENEN UNA 
+                                CALIDAD DE VIDA 
+                                EXCEPCIONAL”.</i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--Pie de página-->
+     <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">@ 2024 SELFCARE</p>
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <p class="policy-text">
+                <a href="#" class="policy-link">Política de privacidad</a>
+                <span class="separaton">|</span>
+                <a href="#" class="policy-link">Política de reembolso</a>
+            </p>
+        </div>
+
+     </footer>
+</main>
+<script src="index-usuario.js"></script>
+</body>
+</html>
