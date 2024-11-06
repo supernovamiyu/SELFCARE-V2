@@ -167,6 +167,16 @@ header .navbar {
     display: none;
 }
 
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#logout-button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
 /** Aplicación de estilos a la sección principal**/
 .hero-section {
     min-height: 100vh;
