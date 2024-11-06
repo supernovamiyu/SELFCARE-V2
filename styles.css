@@ -185,7 +185,57 @@ header .navbar {
     color: white;
 }
 
-@media screen and (max-width: 1568px){
+/** Estilos de la sección "servicios" **/
+
+.service-section {
+    color: white;
+    background: black;
+    padding: 50px 0 100px;
+}
+
+.service-section .service-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-section .service-list .service-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100%/2 - 110px);
+}
+
+.service-section .service-list .service-item .service-image {
+    max-width: 83%;
+    aspect-ratio: 1;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.service-section .service-list .service-item .text{
+    font-size: 20px;
+}
+
+.service-section .service-list .service-item .name {
+    margin: 12px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+@media screen and (max-width: 1024px) {
+    .service-section .service-list {
+        gap: 60px;
+    }
+    .service-section .service-list .service-item {
+        width: calc(100%/2 - 60px);
+    }
+}
+
+@media screen and (max-width: 900px){
     .navbar .nav-menu {
         display: block;
         position: fixed;
@@ -254,5 +304,28 @@ header .navbar {
         height: 100%;
         max-width: 250px;
         aspect-ratio: 1;
+    }
+
+    .service-section .service-list {
+        gap: 30px;
+    }
+
+    .service-section .service-list .service-item {
+        width: calc(100%/2 - 30px);
+    }
+
+    .service-section .service-list .service-item .service-image {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .service-section .service-list {
+        gap: 60px;
+    }
+
+    .service-section .service-list .service-item {
+        width: 100%;
     }
 }
