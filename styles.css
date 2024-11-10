@@ -14,8 +14,8 @@
 
 .form-container{
     display: flex;
-    flex-wrap: wrap;
-    height: 130vh;
+    flex-wrap: nowrap;
+    height: 170vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
