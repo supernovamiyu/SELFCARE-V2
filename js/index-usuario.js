@@ -24,7 +24,7 @@ function logout() {
     alert("Has cerrado sesión.");
     
     // Redirigir al usuario a la página de inicio o login
-    window.location.href = "index.html"; // Cambia esto por la URL adecuada
+    window.location.href = "index.html";
 }
 
 // Evento para manejar el clic en el botón de cerrar sesión
